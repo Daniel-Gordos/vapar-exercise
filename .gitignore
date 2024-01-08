@@ -161,4 +161,7 @@ cython_debug/
 
 .ruff_cache/
 .vscode/
+
+.env.prod
 .env.dev
+.env.test
