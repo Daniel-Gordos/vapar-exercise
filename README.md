@@ -30,7 +30,7 @@ poetry run uvicorn vapar_exercise.app:app
 
 ```bash
 # Ensure a '.env.test' file is in the root of the repo.
-# You can copy the example in .env.dev.example
+# You can copy the example in .env.test.example
 poetry run pytest
 ```
 
