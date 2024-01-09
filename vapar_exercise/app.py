@@ -13,7 +13,7 @@ app = FastAPI(
 @app.get(
     "/repositories/{user_name}",
     responses={
-        200: {"model": ListGithubReposResponseItem},
+        200: {"model": list[ListGithubReposResponseItem]},
         404: {"model": str},
         429: {"model": str},
     },
