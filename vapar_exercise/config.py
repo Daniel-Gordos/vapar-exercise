@@ -12,5 +12,3 @@ class Config(BaseSettings):
     model_config = {"extra": "ignore", "case_sensitive": False}
 
     github_api_token: str
-    debug: bool = False
-    show_docs: bool = False
