@@ -43,6 +43,7 @@ class GithubService:
 
         Throws:
         * UserDoesNotExist if the user does not exist
+        * RateLimitExceeded if the github API call hit a rate limit
         * httpx.RequestError if the request fails for any other reason
         """
         url = f"{self._base_url}/users/{user_name}/repos"
